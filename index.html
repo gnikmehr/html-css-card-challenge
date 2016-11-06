@@ -1,0 +1,143 @@
+﻿<head>
+
+   <link rel="stylesheet" type="text/css" href="index_css.css">
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+   <title>
+    html-css-card-challenge
+   </title>
+
+
+</head>
+
+<body>
+
+    <!--The main div that have starbucks background-->
+    <div id="myDiv">
+	
+	    <!--Navbar of the card-->
+        <nav class="navbar navbar-fluid" style="background-color: #5499C7;" id="myNav">
+		
+			<div class="container-fluid">
+			
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="#"><span class="glyphicon glyphicon-edit" id="edit"></span></a></li>	
+				</ul>
+				
+				<div class='navbar-header'> 
+					 <b id="FontSize">Starbucks</b> 
+					 <br>
+					 Activity
+				</div>
+				
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-search" id="search"></span></a></li>	
+				</ul>
+			</div>
+        </nav>
+		
+		<!--The div that contain icon and closed image-->
+		<div class="container-fluid">
+			<div class="column-center">
+				<img src="images/Starbucks.jpg" class="img-rounded" alt="Starbucks icon" width="60" height="60" align="center">
+			</div>
+			<div class="column-left">
+			</div>
+			<div class="column-right">
+				<img src="images/closed.png" alt="cloesd" width="60" height="60" align="right">
+			</div>
+        </div>
+		
+		<h3> 
+			<b>Starbucks</b>
+		</h3>
+		<center>
+			<font color="white" size="3" face="Calibri">
+				@N. San Antonio Rd, Los Altos 
+			</font>
+		</center>
+		<br>
+		
+		<!--The circular buttons-->
+		<button class="round-button-circle" id="phone"><i class="glyphicon glyphicon-phone"></i></button>
+		<button class="round-button-circle" id="map"><i class="glyphicon glyphicon-map-marker"></i></button>
+		<button class="round-button-circle" id="card"><i class="glyphicon glyphicon-credit-card"></i></button>
+		<br>
+		
+		<!--The user and check icons-->
+		<span class="glyphicon glyphicon-user" id="user"></span>
+		<span class="glyphicon glyphicon-ok" id="ok"></span>
+		<br><br>
+		
+		<!--First row that contain our first panel with texts and Three buttons (Following, Share, Like)-->
+		<div class="rows" id="myrow">
+			<div class="panel panel-default" id="firstPanel">
+				<div class="panel-body" id="firstBody">
+					<div class="col-sm-4">
+						<center>
+							<b id="sizefont"> 868</b>
+							<br>
+							<font size="2.5" color="#515A5A">Followers </font>
+						</center>
+					</div>
+				    <div class="col-sm-4">
+						<center>
+							<b id="sizefont">16</b>
+							<br>
+							<font size="2.5" color="#515A5A">Buddies </font>
+						</center>
+					</div>
+				    <div class="col-sm-4">
+						<center>
+							<b id="sizefont">14</b>
+							<br>
+							<font size="2.5" color="#515A5A">ThumbsUp </font>
+						</center>
+					</div> 
+				
+				 </div>
+			</div>
+			
+			<!--Following button and group buttons-->
+			<button type="button" class="btn btn-default" id="follow"><b>Following</b></button>
+			<div class="btn-group btn-group-lg" id="share_thumb">
+				  <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-share" id="c"></span></button>
+				  <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-thumbs-up" id="t"></span></button>
+			</div>
+			
+		
+		</div>
+		
+		<!--Second row that contain our second panel with texts and starbucks icon-->
+		<div class="rows" id="secondRow">
+			<div class="panel panel-default" id="secondPanel">
+				 <div class="panel-body" id="Secondbody">
+				   <img src="images/starbucks.png" alt="Starbucks icon" width="40" height="40" align="left">
+				   
+				   &ensp;<b>Starbucks</b>
+				   <br>
+				   &ensp;<font size="1" color="#515A5A" face="Arial">@</font>
+				   <font size="2.5" color="#515A5A" face="Calibri">Castro St, Mountain View</font>
+				 </div>
+			</div>
+			
+		</div>
+		
+		<!--The scrollable menue--> 
+		<div class="scrollmenu">
+		    <b>
+			<a href="#IMAGES">IMAGES</a>
+			<a href="#VIDEOS">VIDEOS</a>
+			<a href="#DEALS">DEALS</a>
+			<a href="#ACTIVITY">ACTIVITY</a>
+			<a href="#SOCIAL AGGREGETION">SOCIAL AGGREGETION</a>
+			<a href="#ADDRESS">ADDRESS</a>
+			</b>
+		</div>
+
+
+    </div>
+	 
+
+</body>
