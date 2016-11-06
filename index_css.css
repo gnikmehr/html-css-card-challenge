@@ -1,0 +1,176 @@
+
+#edit, #search {
+    font-size: 18px;
+	color: #D4E6F1;
+}
+
+.navbar .container-fluid{
+    padding-left:0;
+	background-color: #2A6BDC;
+	
+}
+
+.navbar-header
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+	top: 0;
+    text-align: center;
+    margin-top:4px !important;
+    font-size: 13px !important;
+	font-family: Arial;
+	color:white !important;
+	height:100%;
+	line-height: 1.2;
+    
+}
+#FontSize {
+	font-size: 15px;
+}
+
+.column-right{
+	margin-right:-15px;
+	margin-top:-80px;
+}
+
+#myDiv{
+	border:3px solid black;
+	border-radius: 1%;
+	width: 322px;
+    margin: 0 auto;
+	background-image: url("images/star.jpg");
+}
+
+#myDiv img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#myDiv h3{
+    font-family: Arial;
+	color:white;
+	text-align: center;
+}
+.round-button-circle {
+	width: 50px;
+	height:50px;
+    border-radius: 50%;
+	border:.5px solid white;
+    overflow:hidden;
+    background: transparent; 
+	margin-right:10px;
+}
+
+#phone{
+	margin-left:70px;
+	font-size: 18px;
+	color: white;
+}
+#map, #card{
+	font-size: 18px;
+	color: white;
+}
+
+#user{
+	float: right;
+    margin-top: 2px;
+    margin-right: 30px;
+	font-size: 9px;
+	color: #CACFD2;
+}
+#ok{
+	float: right;
+    margin-top: 2px;
+    margin-right: -13px;
+	font-size: 5px;
+	color: #CACFD2;
+}
+
+#firstBody{
+    word-spacing: 30px;
+	margin-top:-10px;
+	
+}
+
+#firstPanel{
+	width:280px;
+	height:55px;
+	margin-left:17px;
+	top: 295px;
+    position: absolute;
+}
+
+#sizefont{
+	font-size: 19px;
+	color:black;
+}
+
+#myrow{
+	background-color:white;
+	height:120px;
+	border-bottom: 1px solid gray;
+}
+
+#follow{
+    margin-left:17px;
+	top: 365px;
+    position: absolute;
+	height:40px;
+	width:150px;
+	background-color:#28C21C;
+	color:white;
+}
+#share_thumb{
+    top: 365px;
+	margin-left:193px;
+    position: absolute;
+}
+
+#c, #t{
+    color: #13C9D1;
+}
+
+#secondRow{
+    background-color:#E5E7E9;
+	height:70px;
+}
+
+#secondPanel{
+	width:300px;
+	height:65px;
+	margin-left:8px;
+	position: absolute;
+	top: 427px;
+}
+
+#Secondbody{
+	margin-top:0px;
+}
+
+#new {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch; 
+  margin-top:20px;
+}
+
+div.scrollmenu {
+    background-color: transparent;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #1C2833;
+	color:green;
+	
+}
